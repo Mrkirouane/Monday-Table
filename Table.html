@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table {
+            width: 40%;
+           
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="5">Week1</th>
+                <td>Walk</td>
+                <td >Run</td>
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Week2</th>
+                <td rowspan="1">B1</td>
+                <td colspan="1">B2</td>
+                <td rowspan="1">B3</td>
+            </tr>
+            <tr>
+                <td>c1</td>
+                <td rowspan="2">C2</td>
+            </tr>
+            <tr>
+                <td>C3</td>
+                <td>C4</td>
+            </tr>
+            <tr>
+                <td>YX</td>
+                <td rowspan="1">XX</td>
+            </tr>
+            <tr>
+         <th>Week4</th>
+         <td rowspan="4">Drive to the beach</td>
+         
+               
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
